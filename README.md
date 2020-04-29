@@ -1,6 +1,8 @@
 # Node JS Web Server
 ##### Minify your files with Gulp
 
+### Stack
+
 * Node
 * Express
 * Node-Sass
