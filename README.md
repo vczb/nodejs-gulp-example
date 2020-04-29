@@ -1,14 +1,34 @@
-NODE JS DOCKERIZED
+# Node JS Web Server
+##### Minify your files with Gulp
 
-Run command:
+### Stack
 
-docker-compose up --build
+* Node
+* Express
+* Node-Sass
+* Nodemon
+* Gulp
 
-open in your web browser:
+##### Source structure
 
-http://0.0.0.0:3000/
+* public
+  * ... minified files 
+* src
+  * html
+    * ... your html here
+  * js
+    * ... your javascript here
+  * sass
+    * ... your styles here
+* gulpfile.js
+* server.js
 
 
-Author: @vczb
+##### Atention
+###### your script will be have file name like YOUR-SCRIPT-NAME-min.js
 
-viniciuszucatti@gmail.com
+##### How to Install 
+
+1. npm install
+2. $gulp
+3. $npm start
